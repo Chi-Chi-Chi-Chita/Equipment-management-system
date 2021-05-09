@@ -104,6 +104,10 @@
                             }
                         ]
                     }, {
+                        title: '請款',
+                        icon: 'fas fa-comment-dollar',
+                        href: '/finance'
+                    }, {
                         title: '設定',
                         icon: 'fas fa-cogs',
                         child: [

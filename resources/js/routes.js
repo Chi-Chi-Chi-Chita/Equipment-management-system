@@ -21,6 +21,7 @@ import speaker from "./pages/speakers/speaker";
 import page_403 from "./pages/error/403";
 import sponsor from "./pages/sponsor/sponsor";
 import ChangePassword from './pages/auth/ChangePassword';
+import finance from './pages/finance/finance'
 
 Vue.use(VueRouter);
 
@@ -88,7 +89,10 @@ const router = new VueRouter({
         {
             path: '/sponsor/sponsor',
             component: sponsor,
-        },
+        },{
+            path: '/finance',
+            component: finance,
+        }, 
         {
             path: '/auth/change-password',
             component: ChangePassword
